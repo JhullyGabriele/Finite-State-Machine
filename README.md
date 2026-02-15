@@ -16,6 +16,7 @@ Implementation of a **Finite-State Machine (FSM)** in VHDL that multiplies two i
 2. Open the **waveform** for simulation.  
 3. Enter the input numbers in **binary**.  
 4. Run the simulation to verify functionality.
+5. When you compile the project, Quartus will generate the `.sof` file needed to program the board.
 
 ## Running on the Cyclone II Board
 1. Compile the project in Quartus.  
