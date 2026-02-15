@@ -1,0 +1,12 @@
+Library IEEE;
+USE IEEE.std_logic_1164.all;
+
+Entity Datapath is
+Port(DataIn : in std_logic_vector(7 downto 0);
+     C : in std_logic_vector(27 downto 0);
+     DataOut,R0,R1,R2,R3,R4,R5,R6,R7 : out std_logic_vector(7 downto 0);
+	  N,Z,Ov,Cout : out std_logic
+	  );
+End Datapath;
+
+architecture Arq of Datapath is
